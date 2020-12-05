@@ -13,39 +13,37 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div class="rectangle">
-            <p class="question">Are you happy?</p>
-            <div class="answer">
-                <span>Disagree</span>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="1">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="2">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="3">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="4">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="5">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="6">
-                </div>
-                <div class="radio-answer">
-                    <input type="radio" id="answer" name="answer" value="7">
-                </div>
-                <span>Agree</span>
+        <div class="container">
+            <div class="left-side">
+                <h3>Your Perspective</h3>
+                <p>Your perspective type is ENTJ</p>
+            </div>
+            <div class="right-side">
+               <div>
+                   <div><p>Introversion(I)</p></div>
+                   <div><p>Color White</p></div>
+                   <div><p>Color Purple</p></div>
+                   <div><p>Extraversion(E)</p></div>
+                </div> 
+                <div>
+                    <div><p>Sensing(S)</p></div>
+                    <div><p>Color White</p></div>
+                    <div><p>Color Purple</p></div>
+                    <div><p>Intuition(N)</p></div>
+                 </div> 
+                 <div>
+                    <div><p>Thinking(T)</p></div>
+                    <div><p>Color White</p></div>
+                    <div><p>Color Purple</p></div>
+                    <div><p>Feeling(F)</p></div>
+                 </div> 
+                 <div>
+                    <div><p>Judging(J)</p></div>
+                    <div><p>Color White</p></div>
+                    <div><p>Color Purple</p></div>
+                    <div><p>Perceiving(P)</p></div>
+                 </div> 
             </div>
         </div> 
-        <div class="rectangle">  
-            <p>Your email</p>
-            <div>
-                <input type="type" name="email" placeholder="you@example.com" required>
-            </div>
-        </div>           
     </body>
 </html>
